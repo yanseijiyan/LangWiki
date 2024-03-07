@@ -31,6 +31,22 @@ WikiWit relies on several key libraries to connect you with the wisdom of Wikipe
 ```bash
 pip install -r requirements.txt
 ```
+## Configuring Environment Variables
+
+For secure and efficient configuration, WikiWit utilizes environment variables to manage sensitive information such as API keys. Follow these steps to set up your environment variables:
+
+### 1. Creating the `.env` File
+
+In the root directory of your project, create a file named `.env`. This file will store your environment variables. Ensure that `.env` is listed in your `.gitignore` file to prevent sharing sensitive information on version control systems.
+
+### 2. Adding Variables to the `.env` File
+
+Open your `.env` file in a text editor and add your environment variables in the format `VARIABLE_NAME=value`. For example, if your project requires an OpenAI API key, you might add the following line:
+
+```plaintext
+OPENAI_API_KEY=your_api_key_here
+```
+
 ## Running the Application
 With your scholarly toolkit installed, you're ready to launch WikiWit and begin your adventure in knowledge exploration:
 
