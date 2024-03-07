@@ -29,14 +29,12 @@ python -m venv venv
 WikiWit relies on several key libraries to connect you with the wisdom of Wikipedia and the power of LangChain's AI. Install these dependencies using pip:
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 ## Running the Application
 With your scholarly toolkit installed, you're ready to launch WikiWit and begin your adventure in knowledge exploration:
 
 ```bash
-Copy code
 streamlit run app.py
 ```
 Ensure app.py matches the name of your Streamlit script file, adjusting as necessary.
