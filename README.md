@@ -1,5 +1,5 @@
 
-# LangWiki: The Enlightening Interactive Chat
+# LangWiki: The Langchain Streamlit Interactive Chat
 
 ## Description
 
